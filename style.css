@@ -49,6 +49,7 @@ footer{
 
 
 
+
 @media screen and (max-width: 800px) {
     body{
        grid-template-areas: 
@@ -76,4 +77,23 @@ footer{
     margin: 20px;
     background-color: palevioletred;
     transition: 0.5s;
+}
+.card:hover{
+    background-color: cornflowerblue;
+}
+
+.card a{
+    border-radius: 30px;
+    background-color: white;
+    display: block;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: purple;
+    transition: 1s;
+}
+.card:hover{
+    background-color:plum ;
+    color:rgb(238, 12, 88) ;
 }
