@@ -4,7 +4,7 @@ body{
     "cabeca cabeca cabeca"
     "lateral meio meio"
     "pe pe pe";
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 250px auto auto;
     grid-auto-rows: 200px auto auto;
 }
 
@@ -61,7 +61,7 @@ footer{
        grid-template-rows: auto auto auto auto;
     }
 }
-.caixa_mae{
+.caixamae{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -79,7 +79,7 @@ footer{
     transition: 0.5s;
 }
 .card:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(201, 117, 180);
 }
 
 .card a{
@@ -93,7 +93,5 @@ footer{
     color: purple;
     transition: 1s;
 }
-.card:hover{
-    background-color:plum ;
-    color:rgb(238, 12, 88) ;
-}
+
+
