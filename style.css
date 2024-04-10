@@ -93,5 +93,48 @@ footer{
     color: purple;
     transition: 1s;
 }
+header nav li{
+    display: inline;
+}
 
+header nav{
+    border: 2px rgb(228, 56, 228);
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: brown;
+    color: aquamarine;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card img{
+    width: 150px;
+    height: 200px;
+}
+.botao{
+    border-radius: 100px;
+    width: 90px;
+    height: 25px;
+    color: rgb(207, 226, 226);
+    background-color: tomato;
+}
+.botao2{
+    border-radius: 75px;
+    width: 87px;
+    height: 25px;
+    color: aliceblue;
+    background-color: aqua;
+}
+.botao3{
+    border-radius: 75px;
+    width: 87px;
+    height: 25px;
+    color: aquamarine;
+    background-color: aqua;
+}
 
