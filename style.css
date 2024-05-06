@@ -15,7 +15,7 @@ header{
 
 aside{
     grid-area: lateral;
-    background-color: azure;
+    background-color: rgb(192, 52, 117);
 }
 
 main{
@@ -43,8 +43,7 @@ footer{
     text-align: center;
     padding: 10px;
     color:white;
-}
-
+}/tmp/guest-dbk6la/Área de Trabalho/html/loja-main/index.html
 
 
 
@@ -75,11 +74,11 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: palevioletred;
+    background-color: rgb(170, 41, 112);
     transition: 0.5s;
 }
 .card:hover{
-    background-color: rgb(201, 117, 180);
+    background-color: rgb(190, 105, 169);
 }
 
 .card a{
@@ -150,6 +149,17 @@ header{
 header img{
     height: 200px;
 
+}
+@media only screen and (with-max: 400px){
+    body{
+        display: grid;
+        grid-template-areas: 
+        "cabe"
+        "prin"
+        "roda";
+        grid-template-columns: auto;
+        grid-template-rows: 200px 800px 200px;
+    }
 }
 
 
