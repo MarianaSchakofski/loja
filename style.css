@@ -15,7 +15,7 @@ header{
 
 aside{
     grid-area: lateral;
-    background-color: rgb(192, 52, 117);
+    background-color: rgb(240, 105, 168);
 }
 
 main{
@@ -43,13 +43,13 @@ footer{
     text-align: center;
     padding: 10px;
     color:white;
-}/tmp/guest-dbk6la/Área de Trabalho/html/loja-main/index.html
+
+}
 
 
 
 
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px){
     body{
        grid-template-areas: 
        "cabeca"
@@ -74,11 +74,11 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(170, 41, 112);
+    background-color: rgb(226, 90, 146);
     transition: 0.5s;
 }
 .card:hover{
-    background-color: rgb(190, 105, 169);
+    background-color: rgb(240, 74, 198);
 }
 
 .card a{
@@ -97,7 +97,7 @@ header nav li{
 }
 
 header nav{
-    border: 2px rgb(228, 56, 228);
+    border: 2px rgb(253, 96, 201);
     position: absolute;
     right: 30px;
     top: 30px;
@@ -105,7 +105,7 @@ header nav{
 header nav a{
     text-decoration: none;
     margin-left: 20px;
-    background-color: rgb(255, 0, 119);
+    background-color: rgb(247, 91, 164);
     color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: 15px;
@@ -141,7 +141,7 @@ header a:hover{
     background-color: pink;
 }
 header{
-    background-color: rgb(202, 44, 123);
+    background-color: rgb(209, 77, 159);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
