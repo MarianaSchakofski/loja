@@ -15,18 +15,17 @@ header{
 
 aside{
     grid-area: lateral;
-    background-color: rgb(240, 105, 168);
+    background-color: rgb(220, 97, 147);
 }
 
 main{
     grid-area: meio;
-    background-color: rgb(211, 71, 169);
-
+    background-color: pink;
 }
 
 footer{
     grid-area: pe;
-    background-color: rgb(221, 94, 215);
+    background-color: rgb(134, 89, 132);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -75,11 +74,11 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(226, 90, 146);
+    background-color: rgb(158, 59, 95);
     transition: 0.5s;
 }
 .card:hover{
-    background-color: rgb(240, 74, 198);
+    background-color: rgb(232, 143, 189);
 }
 
 .card a{
@@ -90,7 +89,7 @@ footer{
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: purple;
+    color: rgb(248, 136, 136);
     transition: 1s;
 }
 header nav li{
@@ -98,7 +97,7 @@ header nav li{
 }
 
 header nav{
-    border: 2px rgb(253, 96, 201);
+    border: 2px rgb(95, 0, 63);
     position: absolute;
     right: 30px;
     top: 30px;
@@ -106,7 +105,7 @@ header nav{
 header nav a{
     text-decoration: none;
     margin-left: 20px;
-    background-color: rgb(247, 91, 164);
+    background-color: rgb(191, 75, 129);
     color: rgb(0, 0, 0);
     border-radius: 10px;
     padding: 15px;
@@ -142,7 +141,7 @@ header a:hover{
     background-color: pink;
 }
 header{
-    background-color: rgb(209, 77, 159);
+    background-color: rgb(163, 102, 140);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
