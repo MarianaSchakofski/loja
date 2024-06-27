@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     display: grid;
     grid-template-areas: 
@@ -74,7 +78,7 @@ footer{
     justify-content: center;
     align-items: center;
     margin: 20px;
-    background-color: rgb(158, 59, 95);
+    background-color: rgb(238, 131, 170);
     transition: 0.5s;
 }
 .card:hover{
@@ -83,13 +87,13 @@ footer{
 
 .card a{
     border-radius: 30px;
-    background-color: white;
+    background-color: rgb(243, 147, 227);
     display: block;
     height: 30px;
     width: 120px;
     text-align: center;
     text-decoration: none;
-    color: rgb(248, 136, 136);
+    color: rgb(34, 15, 15);
     transition: 1s;
 }
 header nav li{
